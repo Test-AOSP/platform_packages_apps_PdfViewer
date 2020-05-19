@@ -1,0 +1,12 @@
+android_app {
+    name: "PdfViewer",
+    manifest: "app/src/main/AndroidManifest.xml",
+    resource_dirs: ["app/src/main/res"],
+    srcs: ["app/src/main/java/**/*.java"],
+    asset_dirs: ["app/src/main/assets"],
+    sdk_version: "current",
+    static_libs: [
+        "com.google.android.material_material",
+        "androidx.appcompat_appcompat",
+    ],
+}
