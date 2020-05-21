@@ -4,6 +4,7 @@ android_app {
     resource_dirs: ["app/src/main/res"],
     srcs: ["app/src/main/java/**/*.java"],
     asset_dirs: ["app/src/main/assets"],
+    product_specific: true,
     sdk_version: "current",
     static_libs: [
         "com.google.android.material_material",
